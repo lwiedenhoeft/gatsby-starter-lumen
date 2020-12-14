@@ -24,6 +24,8 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run: yarn lint
+    - run: yarn flow
+    - run: yarn lint:js
+    - run: yarn lint:scss
     - run: yarn build
     - run: yarn test
