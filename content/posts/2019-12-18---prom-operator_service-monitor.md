@@ -8,7 +8,7 @@ category: "Monitoring"
 tags:
   - "Prometheus"
   - "Monitoring"
-description: "An Essay on Typography by Eric Gill takes the reader back to the year 1930. The year when a conflict between two worlds came to its term. The machines of the industrial world finally took over the handicrafts."
+description: "In the following post, I will describe how you can add your own application metrics to the prom-operator monitoring."
 socialImage: "/media/42-line-bible.jpg"
 ---
 ## Introduction

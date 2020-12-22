@@ -4,10 +4,7 @@ template: "page"
 socialImage: "/media/image-2.jpg"
 ---
 
-Hi, my name is Lars. I’m a DevOps Engineer at Schaeffler, where I help our developers to realize nice software products. My work interests include machine learning, monitoring, and programming in Python. In my spare time, I spend my time with running, basketball, and my little family.
+Hi, my name is Lars. I’m a DevOps Engineer at Siemens, where I help our developers to realize nice software products. My work interests include machine learning, monitoring, and programming in Python. In my spare time, I spend my time with history stuff, photography, basketball, and my little family.
 
 ![Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.](/media/image-2.jpg)
 
-*Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.*
-
-Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus

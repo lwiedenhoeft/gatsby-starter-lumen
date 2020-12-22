@@ -7,7 +7,7 @@ slug: "traefic-docker-encrypt"
 category: "Container"
 tags:
   - "Container"
-description: "An Essay on Typography by Eric Gill takes the reader back to the year 1930. The year when a conflict between two worlds came to its term. The machines of the industrial world finally took over the handicrafts."
+description: "Traefik is a Docker-aware reverse proxy that ships with its own monitoring dashboard. In this post, I will show you how you can use Traefik to route requests to a web application container."
 socialImage: "/media/42-line-bible.jpg"
 ---
 ## Introduction

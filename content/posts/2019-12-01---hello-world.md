@@ -7,7 +7,7 @@ slug: "hello-world"
 category: "Hello"
 tags:
   - "Hello-World"
-description: "An Essay on Typography by Eric Gill takes the reader back to the year 1930. The year when a conflict between two worlds came to its term. The machines of the industrial world finally took over the handicrafts."
+description: "Hi, I finally decided to putting something of my own up."
 socialImage: "/media/42-line-bible.jpg"
 ---
 
