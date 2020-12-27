@@ -1,5 +1,6 @@
 <p align="center">
     <a target="_blank" href="https://circleci.com/gh/lwiedenhoeft/gatsby-starter-lumen"><img src="https://circleci.com/gh/lwiedenhoeft/gatsby-starter-lumen.svg?style=svg"></a> 
+    <a target="_blank" href="https://app.netlify.com/sites/hopeful-stonebraker-27488a/deploys"><img src="https://api.netlify.com/api/v1/badges/47520b31-abe8-4834-833d-e9c5f7684ff0/deploy-status?style=svg"></a>     
 </p>
 
 # Larstogo blog page 
