@@ -18,7 +18,7 @@ For testing the configuration before deploying it, it is useful to test your con
 
 ## Start
 
-Clone the following repository and start the container
+Clone the following repository (https://github.com/lwiedenhoeft/logstash-filter-development) and start the container
 
 ```bash
 $ docker-compose up
