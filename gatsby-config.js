@@ -228,6 +228,7 @@ module.exports = {
         tracesSampleRate: 1
       }
     },
+    {
     resolve: `gatsby-plugin-gdpr-cookies`,
     options: {
       googleAnalytics: {
