@@ -1,6 +1,7 @@
 // @flow strict
 import React from 'react';
 import Helmet from 'react-helmet';
+import CookieConsent from 'react-cookie-consent';
 import type { Node as ReactNode } from 'react';
 import { useSiteMetadata } from '../../hooks';
 import styles from './Layout.module.scss';
@@ -23,7 +24,15 @@ const Layout = ({
   const metaImageUrl = url + metaImage;
 
   return (
+    
     <div className={styles.layout}>
+      <CookieConsent
+          location="bottom"
+          buttonText="Accept"
+          declineButtonText="Decline"
+          cookieName="gatsby-gdpr-google-analytics">
+          A cookie is a small text file containing information that a website transfers to your computer’s hard disk for record-keeping purposes and allows us to analyse our site traffic patterns. It does not contain chocolate chips, you cannot eat it and there is no special hidden jar.
+      </CookieConsent>
       <Helmet>
         <html lang="en" />
         <title>{title}</title>
@@ -41,3 +50,4 @@ const Layout = ({
 };
 
 export default Layout;
+
