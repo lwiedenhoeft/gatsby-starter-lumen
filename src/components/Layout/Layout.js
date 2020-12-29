@@ -26,13 +26,6 @@ const Layout = ({
   return (
     
     <div className={styles.layout}>
-      <CookieConsent
-          location="bottom"
-          buttonText="Accept"
-          declineButtonText="Decline"
-          cookieName="gatsby-gdpr-google-analytics">
-          A cookie is a small text file containing information that a website transfers to your computer’s hard disk for record-keeping purposes and allows us to analyse our site traffic patterns. It does not contain chocolate chips, you cannot eat it and there is no special hidden jar.
-      </CookieConsent>
       <Helmet>
         <html lang="en" />
         <title>{title}</title>

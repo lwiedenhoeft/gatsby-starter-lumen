@@ -228,29 +228,18 @@ module.exports = {
         tracesSampleRate: 1
       }
     },
-    {
-      resolve: `gatsby-plugin-gdpr-cookies`,
-      options: {
-        googleAnalytics: {
-          trackingId: 'UA-186206538-1', // leave empty if you want to disable the tracker
-          cookieName: 'gatsby-gdpr-google-analytics', // default
-          anonymize: true, // default
-          allowAdFeatures: false // default
-        },
-        googleTagManager: {
-          trackingId: '', // leave empty if you want to disable the tracker
-          cookieName: 'gatsby-gdpr-google-tagmanager', // default
-          dataLayerName: 'dataLayer', // default
-        },
-        facebookPixel: {
-          pixelId: '', // leave empty if you want to disable the tracker
-          cookieName: 'gatsby-gdpr-facebook-pixel', // default
-        },
-        // defines the environments where the tracking should be available  - default is ["production"]
-        environments: ['production', 'development']
-      }
-    },
     'gatsby-plugin-flow',
-    'gatsby-plugin-optimize-svgs'
+    'gatsby-plugin-optimize-svgs',
+    {
+      resolve: `gatsby-plugin-goatcounter`,
+      options: {
+        // Either `code` or `selfHostUrl` is required.
+        // REQUIRED IF USING HOSTED GOATCOUNTER! https://[my_code].goatcounter.com
+        code: 'larstogo',
+        // Set to true to include a gif to count non-JS users
+        pixel: true,
+        allowLocal: true,
+      },
+    }
   ]
 };
