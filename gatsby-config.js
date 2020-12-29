@@ -231,7 +231,7 @@ module.exports = {
     'gatsby-plugin-flow',
     'gatsby-plugin-optimize-svgs',
     {
-      resolve: `gatsby-plugin-goatcounter`,
+      resolve: 'gatsby-plugin-goatcounter',
       options: {
         // Either `code` or `selfHostUrl` is required.
         // REQUIRED IF USING HOSTED GOATCOUNTER! https://[my_code].goatcounter.com

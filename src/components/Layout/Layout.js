@@ -1,7 +1,6 @@
 // @flow strict
 import React from 'react';
 import Helmet from 'react-helmet';
-import CookieConsent from 'react-cookie-consent';
 import type { Node as ReactNode } from 'react';
 import { useSiteMetadata } from '../../hooks';
 import styles from './Layout.module.scss';
@@ -24,7 +23,6 @@ const Layout = ({
   const metaImageUrl = url + metaImage;
 
   return (
-    
     <div className={styles.layout}>
       <Helmet>
         <html lang="en" />
@@ -43,4 +41,3 @@ const Layout = ({
 };
 
 export default Layout;
-
