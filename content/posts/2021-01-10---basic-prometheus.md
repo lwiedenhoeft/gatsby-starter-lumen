@@ -1,6 +1,6 @@
 ---
 title: Prometheus Operator Stack - Installing Prometheus in K8s with Helm 3
-date: "2021-01-5T20:20:32.669Z"
+date: "2021-01-05T20:20:32.669Z"
 template: "post"
 draft: false
 slug: "prometheus-operator-stack-with-helm"
