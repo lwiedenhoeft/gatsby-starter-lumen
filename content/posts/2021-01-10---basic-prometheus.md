@@ -95,7 +95,7 @@ Forwarding from 127.0.0.1:9090 -> 9090
 Forwarding from [::1]:9090 -> 9090
 ```
 
-![http://127.0.0.1:9090/targets](/media/prometheus.png)
+![127.0.0.1:9090/targets](/media/prometheus.png)
 
 #### Grafana
 Awesome :) Now lets take a look at Grafana.
@@ -106,7 +106,7 @@ Awesome :) Now lets take a look at Grafana.
 Forwarding from 127.0.0.1:3000 -> 3000
 Forwarding from [::1]:3000 -> 3000
 ```
-![http://127.0.0.1:3000](/media/grafana.png)
+![127.0.0.1:3000](/media/grafana.png)
 
 ## What comes next?
 Check out my post about how to setup a service monitor!
