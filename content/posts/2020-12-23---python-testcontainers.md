@@ -15,42 +15,41 @@ socialImage: "/media/42-line-bible.jpg"
 ---
 ## Introduction
 
-The aim of this project is to POC the use of 
-[testcontainers-python](https://testcontainers-python.readthedocs.io/en/latest/) for integration testing python code. 
-The project aims to demonstrate the following:
+The intention of this post is to test the use of 
+[testcontainers-python](https://testcontainers-python.readthedocs.io/en/latest/) for integration tests in python code. 
+This post tries to demonstrate:
 
-1. Integration of testcontainers-python with [behave](https://behave.readthedocs.io/en/latest/) (or similar python 
-Cucumber port).
-2. The spinning up of a generic container - running RabbitMQ in this case.
-3. Waiting for the application running in the container to finish initializing.
-4. Interacting with the application running inside the test container.
+1. Integration of testcontainers-python with [behave](https://behave.readthedocs.io/en/latest/).
+2. The start of a generic container - in this example RabbitMQ.
+3. Await the app running in the container to finish initializing.
+4. Reach out to the app running inside the test container.
+
 
 ## Running
 
-To run the project code and the associated integration tests, initialize a virtual environment.
+To run the code and the linked integration tests, create a virtual environment.
 ```bash
     $ python3 -m venv ./.venv 
     $ source .venv/bin/activate 
     $ pip install -r requirements.txt
 ```    
-It is assumed that docker will have been installed and is running on the machine being used.
+We assume that docker has been installed and is running.
 
 ### simple_http_server.py
 
-`simple_http_server.py` is the simple application that is being tested. It is a very simple web server that returns
-'Hello, world!' in response to `GET` requests and adds the contents of the request body to RabbitMQ when a `POST` request
-is received. 
+`simple_http_server.py` is the application we want to test. It is a simplistic web server that delivers a 
+'Hello, world!' string in reply to `GET` requests and pushes the content of the request to RabbitMQ when a `POST` request is received. 
 
-To manually test the application, spin up a docker container running RabbitMQ:
+To test the application, start a docker container running RabbitMQ:
 ```bash
     $ docker run -d --hostname my-rabbit -p 15672:15672 -p 5672:5672 --name some-rabbit rabbitmq:3.8.3-management
 ```    
-Run the simple web server specifying the http port to listen for requests on and the rabbit port to send messages on:
+Run the webserver specifying a port to receive requests and the RabbitMQport to send messages to:
 ```bash
     $ source .venv/bin/activate
     (.venv) $ python3 simple_http_server.py 8082 5672
 ```    
-Interact with the web server using cURL:
+Communicate with the webserver via cURL:
 ```bash
     $ curl http://localhost:8082
       Hello, world!
@@ -79,12 +78,12 @@ Interact with the web server using cURL:
       * Closing connection 0
 ```
     
-Browse to http://localhost:15672/#/queues/%2F/test_queue using the credentials guest:guest to view the queue and see 
+Open http://localhost:15672/#/queues/%2F/test_queue with the credentials guest:guest in order to view the queue and display 
 the 'hello world' message added to the queue.
 
 ### Running the integration tests
 
-To run the integration tests making use of testcontainers-python, activate the virtual environment and run `behave`:
+Activate the virtual environment and start `behave`:
 ```bash
     $ source .venv/bin/activate
     (.venv) $ behave
@@ -115,3 +114,4 @@ To run the integration tests making use of testcontainers-python, activate the v
 
 * https://testcontainers-python.readthedocs.io/en/latest/
 * https://behave.readthedocs.io/en/latest/
+* based on https://github.com/spt-development/testcontainers-python-poc
