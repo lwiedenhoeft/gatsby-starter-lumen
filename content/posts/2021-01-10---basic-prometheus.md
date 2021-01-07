@@ -21,7 +21,7 @@ Kubernetes monitoring time! I like monitoring (Yes i do!) and I really apprichia
 ## The K8s Operator
 
 Kubernetes operators are extensions that can be used to create custom resource types (https://bit.ly/2KTSSXF). In addition to the standard Kubernetes resources such as Pods, DaemonSets, Deployments, etc., you can also create your own (so called custom) resources with the help of an operator. In this example, we are going to introduce Prometheus operator. (Lets call it PromOperator from now on :) ). Operators are of great use when you need to perform special manual tasks for your application to be able to run it correctly. Scaling complex apps, application version upgrades or even managing kernel modules for nodes in a computing cluster with specialised hardware. 
-![operator_concept](/media/operator-k8s.png)
+![operator_concept](/media/operator-k8s-2.png)
 
 ## The Idea
 
