@@ -28,11 +28,6 @@ Kubernetes operators are extensions that can be used to create custom resource t
 Building upon the definition above, we can describe the PromOperator as a resource inside K8s that allows simpler management of Prometheus instances (incl configuration and service discovery). This us to easily launch instances of Prometheus, to adjust their config, as well as to manage replicas, retention times, and persistence.
 Furthermore, the PromOperator can automatically create monitoring target settings based on K8s labels. We just refer to services and pods we want to monitor in the PromOperator manifest, and the Operator will add the appropriate Prometheus configuration entries for the K8s auto-discovery.
 
-### CR Resources
-* **`Prometheus`**, which defines a desired Prometheus deployment.
-* **`ServiceMonitor`**, which declaratively specifies how groups of Kubernetes services should be monitored.
-  The Operator automatically generates Prometheus scrape configuration based on the current state of the objects in the API server.
-
 ## Installation
 
 In this post, we use Helm 3 to install the definitions and resoures. You can avoid Helm by installing the operator via pure manifest files. If you want to go this way I can recommend this netways blog articel https://bit.ly/3ngHmCP
