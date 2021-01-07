@@ -14,6 +14,8 @@ tags:
 description: "Back to the basics. A short introduction into the K8s operators concept and how-to install prometheus operator start."
 socialImage: "/media/k8s-logo.svg"
 ---
+![operator_concept](https://github.com/prometheus/docs/raw/ca2961b495c3e2a1e4586899c26de692fa5a28e7/static/prometheus_logo_orange_circle.svg)
+
 ## Introduction
 
 Kubernetes monitoring time! I like monitoring (Yes i do!) and I really apprichiate when we can introduce a monitoring solution with ease. Here comes prometheus into play. Easy to install but hard to master. So lets start with a short introduction into the k8s operator concept followed by a prometheus operator installation how-to. Have fun!
