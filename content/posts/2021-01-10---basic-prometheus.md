@@ -14,7 +14,7 @@ tags:
 description: "Back to the basics. A short introduction into the K8s operators concept and how-to install prometheus operator start."
 socialImage: "/media/k8s-logo.svg"
 ---
-![operator_concept](https://github.com/prometheus/docs/raw/ca2961b495c3e2a1e4586899c26de692fa5a28e7/static/prometheus_logo_orange_circle.svg)
+![operator_concept](/media/prometheus_logo_orange_circle.svg)
 
 ## Introduction
 
