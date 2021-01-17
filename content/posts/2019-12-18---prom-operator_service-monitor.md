@@ -8,8 +8,9 @@ category: "Monitoring"
 tags:
   - "Prometheus"
   - "Monitoring"
+  - "Service Monitor"
 description: "In the following post, I will describe how you can add your own application metrics to the prom-operator monitoring."
-socialImage: "/media/42-line-bible.jpg"
+socialImage: "/media/prometheus-stacked-color.svg"
 ---
 ## Introduction
 

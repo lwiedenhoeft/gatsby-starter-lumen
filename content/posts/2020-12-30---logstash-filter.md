@@ -10,7 +10,7 @@ tags:
   - "Monitoring"
   - "Development"
 description: "For testing the configuration before deploying it, it is useful to test your configuration on your local machine."
-socialImage: "/media/42-line-bible.jpg"
+socialImage: "/media/elastic-logstash.svg"
 ---
 ## Introduction
 

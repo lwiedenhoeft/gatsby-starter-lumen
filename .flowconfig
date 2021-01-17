@@ -8,6 +8,7 @@ flow-typed
 [options]
 module.name_mapper.extension='scss' -> '<PROJECT_ROOT>/flow/css-module-stub.js'
 server.max_workers=1
+types_first=false
 
 [strict]
 nonstrict-import

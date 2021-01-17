@@ -8,7 +8,7 @@ category: "Container"
 tags:
   - "Container"
 description: "Traefik is a Docker-aware reverse proxy that ships with its own monitoring dashboard. In this post, I will show you how you can use Traefik to route requests to a web application container."
-socialImage: "/media/42-line-bible.jpg"
+socialImage: "/media/traefik-logo.svg"
 ---
 ## Introduction
 
