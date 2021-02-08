@@ -1,5 +1,5 @@
 ---
-title: QuickShot - VSCode Terminal Fonts
+title: VSCode Terminal Fonts
 date: "2021-02-08T20:20:32.669Z"
 template: "post"
 draft: false
