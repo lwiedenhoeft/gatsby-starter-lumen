@@ -14,6 +14,10 @@
     {
       "packageNames": ["react", "react-dom"],
       "groupName": "react"
+    },
+    {
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
     }
   ],
   "labels": ["renovate"],
